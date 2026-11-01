@@ -29,7 +29,3 @@ void computerInsertionSearch(char* grid);
 void difficultySelector(char difficulty, char* grid, char discType);
 
 void printGrid(char* grid);
-
-//void printAnimation(char discType, int colNum);
-
-void chuddyGrid(char* grid);

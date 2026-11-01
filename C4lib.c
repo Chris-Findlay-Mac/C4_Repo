@@ -270,28 +270,3 @@ void printGrid(char* grid) {
 	printf("\n");
 	printf("		|^^^1^^^|^^^2^^^|^^^3^^^|^^^4^^^|^^^5^^^|^^^6^^^|^^^7^^^|\n");
 }
-
-/*
-void printAnimation(char discType, int colNum) {
-	for(int i = 0; i < 3; i++) {
-		for(int j = 0; j < colNum; j++) {
-			printf("       ");
-		}
-		if(discType == 'p') {
-			printf("|\033[43m       \033[0m");
-			printf("\n");
-		}
-		else {
-			printf("|\033[41m       \033[0m");
-			printf("\n");
-		}
-		printGrid(grid);
-	}
-	
-}
-*/
-
-void chuddyGrid(char* grid) {
-	printGrid(grid);
-	chuddyGrid(grid);
-}

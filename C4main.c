@@ -11,8 +11,6 @@ int main() {
 					' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ',
 					' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ',
 					' ', ' ', ' ', ' ', ' ', ' '};
-	//Make a copy of this array which is initially blank and is filled in with the print method
-	//to allow for animations => "old slot = ' ', current slot = 'p' therefore do animation for corresponding column
 	char difficulty = '?';
 	int botScore = 0;
 	int playerScore = 0;
