@@ -4,8 +4,11 @@ A simple game where you must connect four of your assigned colour of 'disc' in a
 
 ### Features
 -Multiple difficulty options
+
 -PvP functionality
+
 -Score Tracking
+
 -Built-in option to quit at any point
 
 
